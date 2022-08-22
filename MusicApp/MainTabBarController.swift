@@ -29,6 +29,4 @@ class MainTabBarController: UITabBarController {
         navigationVC.navigationBar.prefersLargeTitles = true
         return navigationVC
     }
-    
-    
 }

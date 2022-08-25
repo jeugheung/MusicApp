@@ -15,6 +15,7 @@
 		C9FCF01028ACEF3900BD28AD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF00F28ACEF3900BD28AD /* MainTabBarController.swift */; };
 		C9FCF01228ACF13E00BD28AD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF01128ACF13E00BD28AD /* SearchViewController.swift */; };
 		C9FCF01528B41A9900BD28AD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C9FCF01428B41A9900BD28AD /* Alamofire */; };
+		C9FCF01728B78DC500BD28AD /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF01628B78DC500BD28AD /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C9FCF00928ACED5A00BD28AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9FCF00F28ACEF3900BD28AD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		C9FCF01128ACF13E00BD28AD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C9FCF01628B78DC500BD28AD /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				C9FCF00428ACED5A00BD28AD /* Assets.xcassets */,
 				C9FCF00628ACED5A00BD28AD /* LaunchScreen.storyboard */,
 				C9FCF00928ACED5A00BD28AD /* Info.plist */,
+				C9FCF01628B78DC500BD28AD /* SearchResponse.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				C9FCF01228ACF13E00BD28AD /* SearchViewController.swift in Sources */,
 				C9FCF00028ACED5800BD28AD /* ViewController.swift in Sources */,
+				C9FCF01728B78DC500BD28AD /* SearchResponse.swift in Sources */,
 				C9FCEFFC28ACED5800BD28AD /* AppDelegate.swift in Sources */,
 				C9FCF01028ACEF3900BD28AD /* MainTabBarController.swift in Sources */,
 				C9FCEFFE28ACED5800BD28AD /* SceneDelegate.swift in Sources */,

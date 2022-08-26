@@ -23,7 +23,6 @@
 		C9FCF02528B8CD7E00BD28AD /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF01E28B8CD7E00BD28AD /* SearchModels.swift */; };
 		C9FCF02628B8CD7E00BD28AD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF01F28B8CD7E00BD28AD /* SearchViewController.swift */; };
 		C9FCF02728B8CD7E00BD28AD /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FCF02028B8CD7E00BD28AD /* SearchInteractor.swift */; };
-		C9FCF02828B8CD7E00BD28AD /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FCF02128B8CD7E00BD28AD /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		C9FCF01E28B8CD7E00BD28AD /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
 		C9FCF01F28B8CD7E00BD28AD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C9FCF02028B8CD7E00BD28AD /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
-		C9FCF02128B8CD7E00BD28AD /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,13 +94,12 @@
 		C9FCF01A28B8CD5800BD28AD /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				C9FCF01B28B8CD7E00BD28AD /* SearchPresenter.swift */,
-				C9FCF01C28B8CD7E00BD28AD /* SearchWorker.swift */,
-				C9FCF01D28B8CD7E00BD28AD /* SearchRouter.swift */,
-				C9FCF01E28B8CD7E00BD28AD /* SearchModels.swift */,
 				C9FCF01F28B8CD7E00BD28AD /* SearchViewController.swift */,
 				C9FCF02028B8CD7E00BD28AD /* SearchInteractor.swift */,
-				C9FCF02128B8CD7E00BD28AD /* SearchViewController.xib */,
+				C9FCF01B28B8CD7E00BD28AD /* SearchPresenter.swift */,
+				C9FCF01E28B8CD7E00BD28AD /* SearchModels.swift */,
+				C9FCF01C28B8CD7E00BD28AD /* SearchWorker.swift */,
+				C9FCF01D28B8CD7E00BD28AD /* SearchRouter.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -173,7 +170,6 @@
 			files = (
 				C9FCF00828ACED5A00BD28AD /* LaunchScreen.storyboard in Resources */,
 				C9FCF00528ACED5A00BD28AD /* Assets.xcassets in Resources */,
-				C9FCF02828B8CD7E00BD28AD /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
